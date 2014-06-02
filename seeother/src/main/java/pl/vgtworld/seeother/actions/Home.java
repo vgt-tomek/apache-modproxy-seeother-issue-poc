@@ -9,7 +9,8 @@ public class Home {
 	@GET
 	public String getHome() {
 		return "<h1>Home</h1>"
-			+ "<a href=\"redirect-fixed\">go to other</a>";
+			+ "<a href=\"redirect\">go to other</a>"
+			+ "| <a href=\"redirect-fixed\">fixed go to other</a>";
 	}
 	
 }
